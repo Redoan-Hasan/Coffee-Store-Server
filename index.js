@@ -8,7 +8,7 @@ const port = process.env.PORT || 5000;
 // middlewares
 app.use(
   cors({
-    origin: ["https://coffee-store-server-omega-orcin.vercel.app","http://localhost:5173/"],
+    origin: ["https://coffee-store-server-one-topaz.vercel.app","http://localhost:5173"],
   })
 );
 app.use(express.json());
